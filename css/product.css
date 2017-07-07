@@ -1,0 +1,137 @@
+﻿/*hefang start*/
+body{position: relative;min-width: 1200px;height: auto;background: url("../images/productbg.jpg") no-repeat center;background-color: #fafafa;}
+/*第一部分*/
+.languageBtnBox .languageText{color:#fff;}
+.wrapper_product{min-height: 600px;}
+.productBg{position: relative;width: 100%;height: 100%;overflow: hidden;}
+.productBg .bg{width: 100%;height: 100%;background:url("../images/productbg01.png") no-repeat center/cover;}
+.hero-bg {position: absolute;left: 0;bottom: 0;width: 100%;height: 100%;}
+.hero-bg.st1 .before {display: block;position: absolute;left: -1%;top: 0;right: 0;bottom: 0;background: url("../images/product_topbg01_left.png") no-repeat;
+    background-position: bottom 25.5vw left 7vw;background-size: 20% auto;}
+.hero-bg.st1 .after {display: block;position: absolute;left: 0;top: 0;right: -1%;bottom: 0;background: url("../images/product_topbg01_right.png") no-repeat;
+    background-position: bottom 28.5vw right 7vw;background-size: 20% auto;}
+.hero-bg.st2 .before {display: block;position: absolute;left: -1%;top: 0;right: 0;bottom: 0;background: url("../images/product_midbg02_left.png") no-repeat;
+    background-position: bottom 6.5vw left 0;background-size: 44% auto;}
+.hero-bg.st2 .after {display: block;position: absolute;left: 0;top: 0;right: -1%;bottom: 0;background: url("../images/product_midbg02_right.png") no-repeat;
+    background-position: bottom 7.5vw right 0;background-size: 42% auto;}
+.hero-bg.st3 .before {display: block;position: absolute;left: -1%;top: 0;right: 0;bottom: 0;background: url("../images/product_botmbg03_left.png") no-repeat;
+    background-position: bottom 0 left 0;background-size: 48% auto;}
+.hero-bg.st3 .after {display: block;position: absolute;left: 0;top: 0;right: -5%;bottom: 0;background: url("../images/product_botmbg03_right.png") no-repeat;
+    background-position: bottom -1vw right 0vw;background-size: 57.5% auto;}
+.productBg_font{position:absolute;width: 36%;left: 55%;top: 17%;margin-left: -315px;}
+.productBg .productBg_font img{width: 100%;}
+.productBg_font .product_info{display: inline-block;width: 100%;}
+.product_info .titleContent{display:block;width: 100%;color:#fff;letter-spacing: 3px;}
+.product_info .titleContent.title{font-size: 38px;text-align: center;}
+.product_info .titleContent.text{font-size: 18px;margin-top: 20px;line-height: 25px;}
+.videoBtn{display: inline-block;position: absolute;width: 100%;height: 100%;top: 50%;left: 50%;-webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);transform: translate(-50%,-50%);background: url("../images/product_video_play.png") no-repeat center;}
+/*第二部分*/
+.product_content{position: relative;width:1200px;left: 50%;margin: 150px auto 0;float: left;transform: translateX(-50%);}
+.product_content span{display: block;text-align: center;}
+.titleBox{height: 44px;line-height: 44px;font-size: 30px;font-weight: bold;color:#202020;background: url("../images/product_fontbg.png") no-repeat center/contain;}
+.smallTitle{line-height: 25px;margin-top: 20px;font-size: 18px;color:#777879;}
+.game_product{width: 100%;height: 400px;margin-top: 130px;}
+.game_product .game_video{position: relative;width: 50%;height: 325px;padding-right: 50px;float: left;overflow: hidden;margin-top: 37.5px;}
+.game_product .game_video img{width:100%;height:100%;}
+.game_product .game_video .product_video{position: absolute;width:550px;height:320px;left: 0;top: 0;}
+/*轮播*/
+.rollBox{width: 50%;display: inline-block;text-align: center;float: left;}
+.rollBox .box{width: 100%;height: 400px;display: inline-block;position:relative;overflow: hidden;}
+.rollBox .box .imgBox{width:100%;height: 100%;display: inline-block;position:relative;overflow: hidden;}
+.rollBox .box .list{position:absolute;left: 0;top: 0;width: 100%;height: 100%;}
+.rollBox .box li{position:relative;}
+.rollBox .box li{width: 100%;height: 100%;float: left;padding-top: 20px;}
+.rollBox .box li .product_icon{display: inline-block;width: 114px;height: 114px;border-radius: 20px;}
+.rollBox .box li a img{display: inline-block;width: 100px;height: 100px;border-radius: 10px;}
+.rollBox .listBtn{width: 1200px;float: left;text-align: center;font-size: 0;margin-top: 5px;position: relative;left: -100%;}
+.rollBox .listBtn span img{width:100%;height:100%;float: left;}
+.rollBox .imgToggle .st{position:absolute;top: 50%;margin-top: -70px;width:23px;height:23px;cursor: pointer;z-index: 5;transition: all .2s ease-in-out;}
+.rollBox .imgToggle .st:hover{transform: scale(1.1,1.1)}
+.rollBox .imgToggle .st.LY_prev{background:url("../images/product_leftbtn.png") no-repeat left center;}
+.rollBox .imgToggle .st.LY_next{background:url("../images/product_rightbtn.png") no-repeat right center}
+.rollBox .imgToggle .prev{background-position: left top;left:2px;}
+.rollBox .imgToggle .next{background-position: right top;right:2px;}
+.select_more{display:inline-block;padding:8.5px 28px;font-size: 16px;color:#000;border-radius: 30px;border: 1px solid #000;margin-top:10px;transition: all .4s ease;}
+.select_more:hover{background: #000;color: #fff;}
+.game_name{font-size: 28px;color:#272a2c;line-height: 35px;margin-top: 10px;padding: 0 10%;}
+.game_comment{font-size: 18px;color:#000;line-height: 30px;margin-top:45px;padding: 0 10%;}
+/*人物*/
+.character_box{width:1200px;float: left;margin: 0 auto 150px;}
+.character_box span{width:25%;height:350px;padding: 2%;float: left;}
+.character_box span a{position: relative;display: inline-block;width: 100%;height: 100%;}
+.character_box span a i{left: 0;}
+/*刷子层*/
+.character_box span a .brush_bg{position:absolute;display: inline-block;width: 100%;height: 100%;filter:Gray;filter: grayscale(100%);filter:Gray;
+    -webkit-filter: grayscale(100%);transition: all .4s ease-in-out;}
+.character_box span a:hover .brush_bg{  filter:Gray;filter: grayscale(0);filter:Gray; -webkit-filter: grayscale(0);}
+.character_box span.active a .brush_bg{  filter:Gray;filter: grayscale(0);filter:Gray; -webkit-filter: grayscale(0);}
+.character_box span a .brush_bg.b01{background: url("../images/product_person01_bg.png") no-repeat center/contain;background-position-y: 105%;}
+.character_box span a .brush_bg.b02{background: url("../images/product_person02_bg.png") no-repeat center/contain;background-position-y: 105%;}
+.character_box span a .brush_bg.b03{background: url("../images/product_person03_bg.png") no-repeat center/contain;background-position-y: 105%;}
+.character_box span a .brush_bg.b04{background: url("../images/product_person04_bg.png") no-repeat center/contain;background-position-y: 105%;}
+.character_box span a .brush_bg.b05{background: url("../images/product_person05_bg.png") no-repeat center/contain;background-position-y: 105%;}
+.character_box span a .brush_bg.b06{background: url("../images/product_person06_bg.png") no-repeat center/contain;background-position-y: 105%;}
+.character_box span a .brush_bg.b07{background: url("../images/product_person07_bg.png") no-repeat center/contain;background-position-y: 105%;}
+.character_box span a .brush_bg.b08{background: url("../images/product_person08_bg.png") no-repeat center/contain;background-position-y: 105%;}
+/*人物层*/
+.character_box span a .character_bg{position:absolute;display: inline-block;width: 100%;height: 100%;filter:Gray;filter: grayscale(50%);
+    filter:Gray; -webkit-filter: grayscale(50%);transition: all .4s ease-in-out;}
+.character_box span a:hover .character_bg{width: 120%;height: 100%;margin-left:-10%; transform-origin: center bottom;filter:Gray;filter: grayscale(0);
+    filter:Gray; -webkit-filter: grayscale(0);}
+.character_box span.active a .character_bg{width: 120%;height: 100%;margin-left:-10%; transform-origin: center bottom;filter:Gray;filter: grayscale(0);
+    filter:Gray; -webkit-filter: grayscale(0);}
+.character_box span a .character_bg.c01{background: url("../images/product_person01.png") no-repeat center/contain;background-position-y: bottom;}
+.character_box span a .character_bg.c02{background: url("../images/product_person02.png") no-repeat center/contain;background-position-y: bottom;}
+.character_box span a .character_bg.c03{background: url("../images/product_person03.png") no-repeat center/contain;background-position-y: bottom;}
+.character_box span a .character_bg.c04{background: url("../images/product_person04.png") no-repeat center/contain;background-position-y: bottom;}
+.character_box span a .character_bg.c05{background: url("../images/product_person05.png") no-repeat center/contain;background-position-y: bottom;}
+.character_box span a .character_bg.c06{background: url("../images/product_person06.png") no-repeat center/contain;background-position-y: bottom;}
+.character_box span a .character_bg.c07{background: url("../images/product_person07.png") no-repeat center/contain;background-position-y: bottom;}
+.character_box span a .character_bg.c08{background: url("../images/product_person08.png") no-repeat center/contain;background-position-y: bottom;}
+/*石头层*/
+.character_box span a .stone_bg{position:absolute;display: inline-block;width: 100%;height: 100%;transition: all .4s ease-in-out;opacity: 0;}
+.character_box span a .stone_bg:hover{opacity:1;}
+.character_box span a .stone_bg.s02{background: url("../images/product_person02_stone.png") no-repeat center/contain;background-position-y: 90%;}
+
+/*弹出框*/
+.web_buliding_box {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+}
+.web_buliding_box .bg {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+}
+.web_buliding_box .contentBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 150px;
+    padding: 40px 0;
+    text-align: center;
+    background: #fff;
+    border-radius: 8px;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.web_buliding_box .contentBox span {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 30px;
+    color: #666;
+}
+.web_buliding_box .contentBox .st02 {
+    font-weight: 700;
+}
+
+/*hefang end*/

@@ -1,0 +1,39 @@
+﻿/*banner区域*/
+.wrapper .service_bg{position: absolute;width: 120%;height: 120%;top: -10%;left: -10%;-webkit-animation: scale 4s linear .2s;-moz-animation: scale 4s linear .2s;
+    -o-animation: scale 4s linear .2s;-ms-animation: scale 4s linear .2s;animation: scale 4s linear .2s; -webkit-animation-fill-mode : forwards;
+    -moz-animation-fill-mode : forwards;-ms-animation-fill-mode : forwards;-o-animation-fill-mode : forwards;animation-fill-mode : forwards; }
+.wrapper .zzc{position: absolute;left:0;top:0;width: 100%;height:100%;background:url(../images/service_bg_zzc.png) no-repeat center/cover;}
+.wrapper .titleBox{display: inline-block;position: absolute;left:50%;top:50%;width:800px;-webkit-transform: translate(-50%,-50%);-moz-transform: translate(-50%,-50%);transform: translate(-50%,-50%);}
+.wrapper .titleBox img{width: 100%;}
+/*内容区域*/
+.contentBox{display: inline-block;width: 100%;height: auto;}
+.contentBox .serviceAreaBox{width: 870px;margin:100px auto;}
+.serviceAreaBox .serviceArea_title{width: 100%;height: auto;text-align: center;}
+.serviceArea_list{display:inline-block;width: 100%;height: auto;margin-top: 90px;}
+.serviceArea_list li{float:left;width: 20%;}
+.serviceArea_list li a{display: block;width: 100%;text-align: center;}
+.serviceArea_list li a .imgBox{display: inline-block;width: 115px;border-radius:20px;}
+.serviceArea_list li .imgBox img{width: 100%;height: auto;transition: all .5s ease-in-out;}
+.serviceArea_list li .imgBox:hover img{-webkit-transform: scale(1.1);-moz-transform: scale(1.1);transform: scale(1.1);}
+.serviceArea_list li span{display:block;width: 100%;height: 40px;line-height: 40px;margin-bottom: 25px;text-align:center;color: #626262;font-size: 18px;}
+.serviceSupportBox{width: 870px;margin: 200px auto 300px;height:auto;}
+.serviceSupportBox .serviceSupport_title{width: 100%;height: auto;text-align: center;}
+.serviceSupport_contactList{display:inline-block;width: 100%;height: auto;margin-top: 60px;}
+.serviceSupport_contactList li{float:left;}
+.serviceSupport_contactList li.st02{padding-left: 80px;}
+.serviceSupport_contactList li.st03{margin-left: 220px;}
+.serviceSupport_contactList li .leftBox,.serviceSupport_contactList li .rightBox{float:left;height: 100px;}
+.serviceSupport_contactList li .leftBox{width: 50px;text-align: center;line-height: 100px;}
+.serviceSupport_contactList li .leftBox img{vertical-align: middle;}
+.serviceSupport_contactList li .rightBox span{line-height: 100px;display: block;margin-left:10px;font-size: 14px;color:#5c5c5c;}
+.serviceSupport_contactList li.st01 .rightBox span{line-height: 20px;display: block;height: 20px;}
+.serviceSupport_contactList li.st01 .rightBox span:nth-child(1){margin-top:20px;}
+.serviceSupport_contactList li.st01 .rightBox span:nth-last-child(1){color: #c2c0c0;}
+/*顶部背景图动画*/
+@-webkit-keyframes scale {0%{-webkit-transform: scale(1)}100% {-webkit-transform: scale(.95)}}
+@-moz-keyframes scale {0%{-moz-transform: scale(1)}100% {-moz-transform: scale(.95)}}
+@-ms-keyframes scale {0%{-ms-transform: scale(1)}100% {-ms-transform: scale(.95)}}
+@-o-keyframes scale {0%{-o-transform: scale(1)}100% {-o-transform: scale(.95)}}
+@keyframes scale {0%{transform: scale(1)}100% {transform: scale(.95)}}
+
+

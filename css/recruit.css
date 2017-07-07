@@ -1,0 +1,151 @@
+﻿/*hefang start*/
+body{position: relative;min-width: 1200px;}
+/*第一部分开始*/
+.languageBtnBox .languageText{color:#fff;}
+.recruitBg{position: absolute;width: 100%;height: 100%;overflow: hidden;}
+.recruitBg img{position: absolute;width: 120%;height: 120%;top: -10%;left: -10%;-webkit-animation: scale 4s linear .2s;-moz-animation: scale 4s linear .2s;
+    -o-animation: scale 4s linear .2s;-ms-animation: scale 4s linear .2s;animation: scale 4s linear .2s; -webkit-animation-fill-mode : forwards;
+    -moz-animation-fill-mode : forwards;-ms-animation-fill-mode : forwards;-o-animation-fill-mode : forwards;animation-fill-mode : forwards; }
+.recruitTopBox{position: absolute;width: 100%;top: 50%;text-align: center;-webkit-transform: translateY(-50%);-moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);-o-transform: translateY(-50%);transform: translateY(-50%);}
+.recruitTopBox h1{margin: 20px 0;color: #fff;font-size: 42px;}
+.recruitTopBox span{display: block;}
+.recruitTopBox .selectJob{display: inline-block;padding: 15px 60px;background: #fff;border-radius: 50px;font-size: 14px;color: #000;transition:all .2s ease-in-out;}
+.recruitTopBox .selectJob:hover{background: #d6d6d6;}
+.largeFontImg{height:30px;background: url("../images/recruit_bgfont01.png") no-repeat center/contain;}
+.smallFontImg{height:60px;background: url("../images/recruit_bgfont02.png") no-repeat center/contain;margin: 30px 0;}
+/*第一部分开始结束*/
+/*第二部分福利与待遇开始*/
+.welfareBox{width: 100%;margin-top: 100px;float: left;}
+.welfareBox span{display: block;text-align: center;}
+.titleBox{height: 40px;line-height: 40px;font-size: 30px;font-weight: bold;color:#202020;}
+.welfareBox .titleBox{background: url("../images/recruit_welfare.png") no-repeat center/contain;}
+.smallTitle{font-size: 18px;color:#777879;margin-top: 20px;line-height: 25px;}
+.welfareBox .welfareType{width: 1200px;float: left;position: relative;left: 50%;-webkit-transform: translateX(-50%);-moz-transform: translateX(-50%);-ms-transform: translateX(-50%);-o-transform: translateX(-50%);transform: translateX(-50%);}
+.welfareBox .welfareType li{width:33.33%;height: 300px;float: left;margin-top: 50px;padding:18px;text-align: center;cursor: pointer;}
+.welfareBox .welfareType li .recruit_icon{position:relative;display: inline-block;width: 106px;height: 106px;border: 2px solid #f0f0f0;border-radius: 50%;transition:all .2s ease-in-out;}
+.welfareType li:hover .recruit_icon{border: 2px solid #2fc8f5;background-color: #e6f9fe;}
+.welfareType li .recruit_icon i{ position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+.welfareType li .recruit_icon.i01 i{background: url("../images/recruit_icon01.png") no-repeat center;}
+.welfareType li:hover .recruit_icon.i01 i{background: url("../images/recruit_icon01_hover.png") no-repeat center;animation:recruit_icon 1s ease;}
+.welfareType li .recruit_icon.i02 i{background: url("../images/recruit_icon02.png") no-repeat center;}
+.welfareType li:hover .recruit_icon.i02 i{background: url("../images/recruit_icon02_hover.png") no-repeat center;animation:recruit_icon 1s ease;}
+.welfareType li .recruit_icon.i03 i{background: url("../images/recruit_icon03.png") no-repeat center;}
+.welfareType li:hover .recruit_icon.i03 i{background: url("../images/recruit_icon03_hover.png") no-repeat center;animation:recruit_icon 1s ease;}
+.welfareType li .recruit_icon.i04 i{background: url("../images/recruit_icon04.png") no-repeat center;}
+.welfareType li:hover .recruit_icon.i04 i{background: url("../images/recruit_icon04_hover.png") no-repeat center;animation:recruit_icon 1s ease;}
+.welfareType li .recruit_icon.i05 i{background: url("../images/recruit_icon05.png") no-repeat center;}
+.welfareType li:hover .recruit_icon.i05 i{background: url("../images/recruit_icon05_hover.png") no-repeat center;animation:recruit_icon 1s ease;}
+.welfareType li .recruit_icon.i06 i{background: url("../images/recruit_icon06.png") no-repeat center;}
+.welfareType li:hover .recruit_icon.i06 i{background: url("../images/recruit_icon06_hover.png") no-repeat center;animation:recruit_icon 1s ease;}
+.welfareType li span{display:block;font-size: 18px;margin-top: 30px;}
+.welfareType li .darkFont{color: #202020;font-weight: bold;}
+.welfareType li .lightFont{color: #777879;line-height: 25px;}
+/*第二部分福利与待遇结束*/
+/*第三部分第二版开始*/
+.lyIdeaBox{width: 100%;margin-top: 30px;}
+.lyIdeaBox .lyIdeaCon{width: 100%;height:755px;position: relative;text-align: center;}
+.lyIdeaBox .lyIdeaCon .img{position: absolute;left: 50%;bottom: 0;display:inline-block;width:90%;height:90%;margin:0 auto;transition: all .6s ease-in-out .2s;transform: translateX(-50%);opacity: 0;}
+.lyIdeaCon .img.animate{width: 100%;height: 100%;opacity: 1;}
+.lyIdeaCon .img.i01{background: url("../images/recruit_integritybg.jpg") no-repeat center 83%;}
+.lyIdeaCon .img.i02{background: url("../images/recruit_strugglebg.jpg") no-repeat center 20%;}
+.lyIdeaCon .img.i03{background: url("../images/recruit_creativebg.jpg") no-repeat center 63%;}
+.lyIdeaCon .lyIdeaTxt{position: absolute;left: 50%;top:50%;transform: translate(-50%,-50%);}
+.lyIdeaCon .lyIdeaTxt span{display: block;margin: 0 auto;color: #fff;opacity: 0;transition: all 1s ease-in-out;transform: translateY(80px);letter-spacing: 4px;}
+.lyIdeaCon .lyIdeaTxt.animate span{opacity: 1;transform: translateY(60px);}
+.lyIdeaCon .lyIdeaTxt .ideaFontBold{font-size: 48px;transition-duration:1.2s;transition-delay: .3s;}
+.lyIdeaCon .lyIdeaTxt .ideaFontSml{font-size:24px;margin-top:35px;transition-delay: .8s;}
+.lyIdeaCon .lyIdeaTxt .hover_white{width:60px;height:2px;background:#fff;margin-top: 20px;transition-delay:1.2s;}
+/*第三部分第二版结束*/
+/*第四部分我们的办公环境开始*/
+.fourthBox{width: 100%;height:auto;margin-top: 100px;}
+.fourthBox span{display: block;text-align: center;}
+.fourthBox .titleBox{background: url("../images/recruit_environment.png") no-repeat center/contain;}
+.fourthBox .smallBg{height:3px;background: url("../images/recruit_border.png") no-repeat center/contain;margin-top: 30px;}
+.environmentBox{width: 100%;margin-top: 60px;display: inline-block;}
+.environmentBox img{width: 120%;height: 100%;margin-left:-10%;cursor: pointer;-webkit-transition: all 0.8s ease;-moz-transition: all 0.8s ease;-ms-transition: all 0.8s ease;-o-transition: all 0.8s ease; transition: all 0.8s ease; }
+.environmentBoxLeft,.environmentBoxMid,.environmentBoxRight{border: 10px solid #fff;box-sizing: border-box;float: left;overflow: hidden;}
+.environmentBoxLeft{width: 48%;}
+.environmentBoxLeft .topBox{width: 100%;padding-top: 60%;position: relative;}
+.environmentBoxLeft .bottomBox{width:100%;float: left;position: relative;margin-top: 10px;    padding-top: 41%;}
+.environmentBoxLeft .bottomBox .maskBox{width:50%;}
+.environmentBoxLeft .bottomBox .maskBox.left{width: calc(50% - 10px);margin-left: 10px;    left: 50%;}
+.environmentBoxMid{width: 25%;border-left: 0;}
+.environmentBoxMid .topBox{position: relative;padding-top: 74%;}
+.environmentBoxMid .bottomBox{position:relative;margin-top: 10px;padding-top: 120%;}
+.environmentBoxRight{width: 27%;border-left: 0;}
+.environmentBoxRight .topBox{padding-top: 81%;position:relative;}
+.environmentBoxRight .bottomBox{position:relative;margin-top: 10px;padding-top: 98%;}
+.environmentBox .maskBox{position: relative;width: 100%;height: 100%;cursor: pointer;overflow: hidden;}
+.environmentBox .maskBox{position: absolute;width: 100%;height: 100%;top: 0;left: 0;overflow: hidden;cursor: pointer;}
+.environmentBox .maskBox .zzc{position: absolute;left: 0;top: 0;width: 100%;height: 100%;background:rgba(0,0,0,.5);-webkit-transition:all .4s ease-in-out;transition:all .4s ease-in-out;display: none;}
+.environmentBox .maskBox .zzc span{line-height: 40px;font-size: 26px;}
+.environmentBox .maskBox .zzc .location{color:#00bceb;transition: all .4s ease-in-out;-webkit-animation: location1 1.2s ease;-moz-animation: location1 1.2s ease;-o-animation: location1 1.2s ease;-ms-animation: location1 1.2s ease;animation: location1 1.2s ease;}
+.environmentBox .maskBox .zzc .locationTxt{color:#fff;transition: all .4s ease-in-out;-webkit-animation: location2 1.2s ease;-moz-animation: location2 1.2s ease;-o-animation: location2 1.2s ease;-ms-animation: location2 1.2s ease;animation: location2 1.2s ease;}
+.environmentBox .maskBox:hover .zzc{display: block;}
+.environmentBox .maskBox:hover img{bottom:0;transform: scale(1.1);-webkit-transform: scale(1.1);}
+.environmentBox .maskBox .zzc .txtBox{position: relative;width: 100%;height: auto;top: 50%;-webkit-transform: translateY(-50%);-moz-transform: translateY(-50%);-ms-transform: translateY(-50%);-o-transform: translateY(-50%);transform: translateY(-50%);margin: 0;}
+/*第四部分我们的办公环境结束*/
+/*第五部分查看职位开始*/
+.fifthBox{width: 100%;margin-top:100px;text-align: center;}
+.fifthBox .titleBox{font-size: 36px;}
+.fifthBox .smallTitle{margin-top: 10px;font-size: 14px;}
+.fifthBox span{display:block;width: 100%;}
+.fifthBox .apply{display:inline-block;margin: 35px 0 40px;padding: 13px 70px;border-radius:3px;font-size: 16px;background: #fff;color: #202020;border:1px solid #626262;-webkit-transition:all .4s ease-in-out;transition:all .4s ease-in-out;}
+.fifthBox .apply:hover{background: #626262;color: #fff;}
+/*申请职位详情*/
+.cont_text{width:870px;height:auto;margin: 0 auto; text-align: center;display: none;}
+.cont_text h3{font-size: 36px;color:#202020;font-weight:600;padding:80px 0;}
+/*table切换*/
+.LY_table{width:100%;height:100%;background:#fff;}
+.LY_table .LY_title{width:100%;height:60px;border:1px solid #e6e6e6;border-radius:5px;}
+.LY_table .LY_title span{width:calc(100%/6);line-height:58px;text-align: center;font-size:18px;transition: all .3s ease-in-out;float:left;cursor:pointer;}
+.LY_table .LY_title .first{border-radius:5px 0 0 5px;}
+.LY_table .LY_title .last{border-radius:0 5px 5px 0;}
+.LY_table .LY_title span.LY_active,.LY_table .LY_title span:hover{background:#626262;color:white;}
+.LY_table .LY_box{width:100%;min-height:500px;text-align: left;}
+.LY_table .LY_box .LY_list{height:100%;padding:20px;display: none;}
+.LY_table .LY_box .LY_list.LY_active{display: block;height:100%;}
+.LY_table .LY_box .LY_list .list_title{font-size:18px;margin-top:20px;color:#35393a;font-weight:600;}
+.LY_table .LY_box .LY_list .list_duty{font-size:14px;margin:25px 0;}
+.LY_table .LY_box .LY_list .list_duty p{line-height:23px;vertical-align: middle;}
+.LY_table .LY_box .LY_list .list_apply{text-align: center;margin:45px 0;}
+.LY_table .LY_box .LY_list .list_apply a{color:black;display:inline-block;border:1px solid #626262;font-size: 16px;padding:13px 70px;border-radius: 3px;transition:all .2s ease-in-out;}
+.LY_table .LY_box .LY_list .list_apply a:hover{background: #626262;color: #fff;}
+/*第五部分查看职位结束*/
+/*弹出框*/
+.applyPopBox{position: fixed;width:100%;height:100%;top:0;left:0;background: rgba(0,0,0,0.6);z-index: 1000;display: none;}
+.applyPopCon{position: relative;width: 600px;height: 250px;top: 50%;background: #fff;border-radius: 8px;margin: 0 auto;transform: translateY(-50%);}
+.applyPopCon span{display: inline-block;width: 100%;line-height: 30px;text-align: center;font-size: 18px;color:#333;}
+.applyPopCon .recruit_icon_closeBtn{display:inline-block;position:absolute;width:30px;height: 30px;right: 20px;top:20px;background: url("../images/recruit_icon_close.png") no-repeat center/contain;}
+.applyPopCon .recruit_icon_email{height:35px;background: url("../images/recruit_icon_email.png") no-repeat center/contain;margin: 57.5px 0 20px;}
+.applyPopCon .blueTxt{color:#06b4e7;font-style: normal;font-size: 18px;}
+/*==========loading遮罩层=========*/
+.loading_zzc{position: fixed;top: 0;left: 0;right: 0;bottom: 0;z-index: 1000;background: #fff;}
+/*动画部分*/
+/*顶部背景图动画*/
+@-webkit-keyframes scale {0%{-webkit-transform: scale(1)}100% {-webkit-transform: scale(.95)}}
+@-moz-keyframes scale {0%{-moz-transform: scale(1)}100% {-moz-transform: scale(.95)}}
+@-ms-keyframes scale {0%{-ms-transform: scale(1)}100% {-ms-transform: scale(.95)}}
+@-o-keyframes scale {0%{-o-transform: scale(1)}100% {-o-transform: scale(.95)}}
+@keyframes scale {0%{transform: scale(1)}100% {transform: scale(.95)}}
+/*福利与待遇部分小图标动画*/
+@-webkit-keyframes recruit_icon {from{transform: scale(0.7)}to{transform: scale(1)}}
+@-moz-keyframes recruit_icon {from{transform: scale(0.7)}to{transform: scale(1)}}
+@-ms-keyframes recruit_icon {from{transform: scale(0.7)}to{transform: scale(1)}}
+@-o-keyframes recruit_icon {from{transform: scale(0.7)}to{transform: scale(1)}}
+@keyframes recruit_icon {from{transform: scale(0.7)}to{transform: scale(1)}}
+/*我们的环境遮罩层文字动画*/
+@-webkit-keyframes location1 {from{transform: translateY(-10px);opacity: 0;}to{transform: translateY(0);opacity: 1;}}
+@-moz-keyframes location1 {from{transform: translateY(-10px);opacity: 0;}to{transform: translateY(0);opacity: 1;}}
+@-ms-keyframes location1 {from{transform: translateY(-10px);opacity: 0;}to{transform: translateY(0);opacity: 1;}}
+@-o-keyframes location1 {from{transform: translateY(-10px);opacity: 0;}to{transform: translateY(0);opacity: 1;}}
+@keyframes location1 {from{transform: translateY(-10px);opacity: 0;}to{transform: translateY(0);opacity: 1;}}
+@-webkit-keyframes location2 {from{transform: translateY(10px);opacity: 0;}to{transform: translateY(0);opacity: 1;}}
+@-moz-keyframes location2 {from{transform: translateY(10px);opacity: 0;}to{transform: translateY(0);opacity: 1;}}
+@-ms-keyframes location2 {from{transform: translateY(10px);opacity: 0;}to{transform: translateY(0);opacity: 1;}}
+@-o-keyframes location2 {from{transform: translateY(10px);opacity: 0;}to{transform: translateY(0);opacity: 1;}}
+@keyframes location2 {from{transform: translateY(10px);opacity: 0;}to{transform: translateY(0);opacity: 1;}}
+/*hefang end*/
+
+
